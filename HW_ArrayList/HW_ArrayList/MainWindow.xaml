@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HW_ArrayList"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="220.19" Width="401.306">
     <Grid>
-        
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="55,129,0,0" VerticalAlignment="Top" Width="75" Click="BtnAdd_Click"/>
+        <Button x:Name="btnRemove" Content="Remove" HorizontalAlignment="Left" Margin="160,129,0,0" VerticalAlignment="Top" Width="75" Click="BtnRemove_Click"/>
+        <Button x:Name="BtnShowAll" Content="Show All" HorizontalAlignment="Left" Margin="265,129,0,0" VerticalAlignment="Top" Width="75" Click="BtnShowAll_Click"/>
+        <TextBox x:Name="txtValue" HorizontalAlignment="Left" Height="23" Margin="55,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="285"/>
+        <Label Content="Homework: ArrayList" HorizontalAlignment="Left" Margin="55,52,0,0" VerticalAlignment="Top" Width="285" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+
     </Grid>
 </Window>
